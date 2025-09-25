@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="background">
+  <header class="title">
+    <h1>Calculadora JS</h1>
+  </header>
+  <main class="calculadora">
+    <div class="screen">
+      <p id="display">0</p>
+    </div>
+    <div class="buttons">
+        <button id="del" class="danger">Del</button>
+        <button id="ac" class="danger">AC</button>
+        <button id="opExp" class="op">^</button>
+        <button id="opRa" class="op">√</button>
+        <button id="num7" onclick="asignarValor(7)">7</button>
+        <button id="num8" onclick="asignarValor(8)">8</button>
+        <button id="num9" onclick="asignarValor(9)">9</button>
+        <button id="opDiv" class="op">/</button>
+        <button id="num4" onclick="asignarValor(4)">4</button>
+        <button id="num5" onclick="asignarValor(5)">5</button>
+        <button id="num6" onclick="asignarValor(6)">6</button>
+        <button id="opMult" class="op">*</button>
+        <button id="num1" onclick="asignarValor(1)">1</button>
+        <button id="num2" onclick="asignarValor(2)">2</button>
+        <button id="num3" onclick="asignarValor(3)">3</button>
+        <button id="opRes" class="op">-</button>
+        <button id="num0" onclick="asignarValor(0)">0</button>
+        <button id="punto">.</button>
+        <button id="opIgual">=</button>
+        <button id="opSum" class="op">+</button>
+    </div>
+  </main>
+    <!-- JS -->
+  <script src="calculadora.js"></script>
+</body>
+</html>
